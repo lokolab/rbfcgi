@@ -18,7 +18,7 @@ First, install the dependencies:
 
 Second, install the "rails" and the "lokolab-rbfcgi" gems:
 
-    gem install rails lokolab-rbfcgi
+    gem install rails ruby-railties-4.0 lokolab-rbfcgi
 
 Third, execute commands via shell*:
 
