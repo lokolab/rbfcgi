@@ -28,12 +28,11 @@ Installing and configuring
 First, install the "lokolab-rbfcgi" Ruby gem*:
 
     cd /tmp
-    wget https://github.com/lokolab/rbfcgi/archive/master.tar.gz -O rbfcgi-master.tar.gz
-    tar -xzvf rbfcgi-master.tar.gz
-    cd rbfcgi-master
+    wget https://github.com/lokolab/rbfcgi/archive/v0.0.1.tar.gz -O rbfcgi-0.0.1.tar.gz
+    tar -xzvf rbfcgi-0.0.1.tar.gz
+    cd rbfcgi-0.0.1
     gem build rbfcgi.gemspec
-    # if relase without "...pre.dev..."
-    gem install lokolab-rbfcgi-X.X.X.pre.dev.gem
+    gem install lokolab-rbfcgi-0.0.1.gem
 
 Second, create a file named "app.rb" inside your
 website’s document root and add the following lines:
