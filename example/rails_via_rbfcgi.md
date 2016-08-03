@@ -14,11 +14,11 @@ Installing and configuring
 
 First, install the dependencies:
 
-    sudo apt-get install nodejs libsqlite3-dev
+    sudo apt-get install libsqlite3-dev ruby-railties-4.0
 
 Second, install the "rails" and the "lokolab-rbfcgi" gems:
 
-    gem install rails ruby-railties-4.0 lokolab-rbfcgi
+    gem install rails lokolab-rbfcgi
 
 Third, execute commands via shell*:
 
