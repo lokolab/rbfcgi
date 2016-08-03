@@ -18,7 +18,8 @@ First, install the dependencies:
 
 Second, install the "rails" and the "lokolab-rbfcgi" gems:
 
-    gem install rails lokolab-rbfcgi
+    gem install rails -v 5.0.0
+    gem install lokolab-rbfcgi
 
 Third, execute commands via shell*:
 
