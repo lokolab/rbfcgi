@@ -51,6 +51,7 @@ website’s document root "... /myproj/public/app.rb"
 and add the following lines*:
 
     ENV['RAILS_ENV'] = 'development'
+    #ENV['RAILS_ENV'] = 'production'
 
     require_relative '../config/environment'
 
